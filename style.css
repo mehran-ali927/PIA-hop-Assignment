@@ -1,0 +1,938 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+    overflow-x: hidden;
+    
+}
+@font-face{
+    font-family: Exo 2;
+    src: url(./fonts/Exo2.0-Bold.otf),
+                url(./fonts/Exo2.0-Regular.otf);
+}
+.clear{
+    clear: both;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #FFE6AB;
+    float: left;
+}
+
+.exclamationicon{
+    font-size: 20px;
+    margin:2% 0% 0% 73%;
+}
+.important{
+    font-family: Helvetica;
+    font-weight: 700;
+    color: #c60c30;
+    font-size: 14px;
+    font-style: normal;
+}
+.covidpara{
+        text-decoration: none;
+        margin-bottom: 2%;
+        font-family: Helvetica;
+        font-weight: 400;
+        color: #333333;
+        font-size: 14px;
+}
+.readhere{
+    text-decoration: none;
+        margin-bottom: 2%;
+        font-family: Helvetica;
+        font-weight: 400;
+        color: #c60c30;
+        font-size: 14px;
+}
+.icon,.texts{
+    float: left;
+}
+.icon{
+    width: 10%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.texts{
+    width: 50%;
+    height: auto;
+    /* background-color: rgb(233, 206, 206); */
+    margin-top: 19px;
+}
+.mainheader{
+    width: 100%;
+    height: auto;
+    /* background-color: coral; */
+    float: left;
+}
+.image, .navigation{
+    float: left;
+}
+.image{
+    width: 30%;
+    height: auto;
+    /* background-color: chartreuse; */
+}
+.pialogo{
+    margin-left: 25%;
+    margin-top: 5px;
+}
+
+.navigation{
+    position: absolute;
+    top: 52px;
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    font-family:"Exo 2", sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    margin-left: 50%;
+    
+    /* background-color: forestgreen; */
+}
+.nav1, .nav2, .nav3, .nav4{
+    float: left;
+    text-align: center;
+    border: none;
+    border-right: 1px solid black;
+    
+    
+}
+.nav1{
+    width: 12%;
+    height: auto;
+    border: none;
+    border-right: 1px solid black;
+    
+    /* background-color: #c60c30; */
+}
+.nav2{
+    width: 10%;
+    height: auto;
+    /* background-color: #0cc644; */
+}
+.nav3{
+    width: 14%;
+    height: auto;
+    /* background-color: #c60cc6; */
+    
+}
+.nav4{
+    width: 15%;
+    height: auto;
+    /* background-color: #c3c60c; */
+}
+.anchortext{
+    text-decoration: none;
+    color: #707070;
+}
+
+
+.login{
+    color: #69b342;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:"Exo 2", sans-serif ;
+}
+.anchortext:hover{
+    color: #69b342;
+}
+
+.navigationtwo{
+    width: 99.9%;
+    height: auto;
+    /* background-color: #69b342; */
+    float: left;
+}
+
+.nav5, .nav6, .nav7, .nav8{
+    float: left;
+    text-align: center;
+    
+    margin-top: 15px;
+}
+.nav5{
+    width: 20%;
+    height: auto;
+    margin-left:90px;
+    /* background-color: darkgoldenrod; */
+}
+.nav6{
+    width: 20%;
+    height: auto;
+    margin-left: 40px;
+    /* background-color: hotpink; */
+}
+.nav7{
+    width: 20%;
+    height: auto;
+    margin-left: 40px;
+    /* background-color: green; */
+}
+.nav8{
+    width: 20%;
+    height: auto;
+    margin-left: 40px;
+    /* background-color: rebeccapurple; */
+}
+
+.anchortext2{
+    text-decoration: none;
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:"Exo 2", sans-serif ;
+}
+.anchortext2:hover{
+    color: #69b342;
+}
+
+.thirdsection{
+    width: 99.9%;
+    height: 600px;
+    margin-top: 15px;
+    background-image: url(./images/Mask-ad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    /* overflow: hidden; */
+    
+}
+.button{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-top: 15px;
+}
+.greenbtn{
+    background-color: #69b342;
+    color: white;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    margin-left: 85px;
+    font-family:"Exo 2", sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.greenbtn:hover{
+    background-color: blue;
+}
+.navigation3{
+    float: left;
+    width: 90%;
+    height: auto;
+    
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.nav9, .nav10, .nav11, .nav12, .nav13{
+    float: left;
+    width: 19.9%;
+    height: 50px; 
+}
+.nav9{
+    background-color: #36454f;
+    border: none;
+    border-right: 1px solid rgb(87, 124, 204);
+
+}
+.nav10{
+    
+    border: none;
+    border-right: 1px solid rgb(87, 124, 204);
+    background-color: #ffffff;
+}
+.nav11{
+    
+    border: none;
+    border-right: 1px solid rgb(87, 124, 204);
+    background-color: #ffffff;
+}
+.nav12{
+    
+    border: none;
+    border-right: 1px solid rgb(87, 124, 204);
+    background-color: #ffffff;
+}
+.nav13{
+    
+    border: none;
+    border-right: 1px solid rgb(87, 124, 204);
+    background-color: #ffffff;
+}
+.jeticon{
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: white;
+}
+.flight{
+    font-family:"Exo 2", sans-serif ;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+.flighttext{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.calendaricon{
+    font-size: 18px;
+    color: rgb(97, 93, 93);
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.destopicon{
+    font-size: 18px;
+    color: rgb(97, 93, 93);
+    margin-top: 15px;
+    margin-left: 25px; 
+}
+.globeicon{
+    font-size: 18px;
+    color: rgb(97, 93, 93);
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.fileicon{
+    font-size: 18px;
+    color: rgb(97, 93, 93);
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.fourthsection{
+    width: 90%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.2);
+    float: left;
+    margin-left: 85px;
+    ;
+}
+.radiobtns{
+    float: left;
+    width: 35%;
+    height: auto;
+    /* background-color: #69b342; */
+    margin-top: 10px;
+    
+}
+.radiotext{
+    color: #ffffff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.radioinputs{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 15px;
+}
+                                    /** Inputs Section Starts */
+.inputssection{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.from-airport, .change-icon, .to-airport{
+    float: left;
+    margin-top: 10px;
+}
+
+.from-airport{
+    width: 30%;
+    height: 40px;
+    margin-left: 30px;
+}
+#from-airportinput{
+    width: 100%;
+    height: 40px;
+}
+.change-icon{
+    width: 5%;
+    height: 40px;
+    background-color: white; 
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.exchange-icon{
+    margin: 10px 0px 0px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.to-airport{
+    width: 30%;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.departuredatesection{
+    width: 100%;
+    height: 100px;
+}
+.departure-datebox, .return-datebox, .flexible-datebox{
+    float: left;
+    /* margin-top: 20px; */
+}
+.departure-datebox{
+    width: 30%;
+    height: 40px;
+    margin-left: 30px;
+}
+.pcolor{
+    color:white ;
+    font-weight: bold;
+}
+.return-datebox{
+    width: 30%;
+    height: 40px;
+    margin-left: 7%;
+}
+#inputdate{
+    width: 99.3%;
+    height: 36px;
+}
+.flexible-datebox{
+    width: 20%;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 50px;
+    
+}
+#checkbox-input{
+    margin-top: 13px;
+
+}
+.datetext{
+    color: #3372be;
+    font-weight: bold;
+    font-size: 16px;
+}
+                                                /** Passengers Section Starts */
+
+.passengers-section{
+    width: 100%;
+    height: 100px;
+}
+.passenger-box, .cabin-box, .findflight-box{
+    float: left;
+}
+.passenger-box{
+    width: 30%;
+    height: 40px;
+    margin-left: 2.6%;
+}
+.cabin-box{
+    width: 30%;
+    height: 40px;
+    margin-left: 7%;
+}
+.findflight-box{
+    width: 20%;
+    height: 40px;
+    margin-top: 4.2%;
+    margin-left: 2%;
+}
+.findflight-input{
+    width: 100%;
+    height: 40px;
+    background-color: #69b342;
+    color: white;
+    cursor: pointer;
+}
+
+                                                        /** Images Section Starts */
+.imagesection{
+    width: 100%;
+    height:auto ;
+    /* background-color: #c60c30; */
+    margin-top: 40px;
+    float: left;
+}
+
+.image1, .image2{
+    float: left;
+}
+.image1{
+    width: 47%;
+    height: 150px;
+    
+    /* background-color: greenyellow; */
+}
+.image2{
+    width: 50%;
+    height: 150px;
+    background-color: rgb(14, 11, 11);
+    margin-left: 15px;
+}
+.aryimg{
+    width: 100%;
+    height: 150px;
+}
+
+.hblimage{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* background-color: indigo; */
+}
+.bankimg{
+    width: 100%;
+    height: auto;
+}
+.latestflights{
+    width: 100%;
+    height: auto;
+    /* background-color: darkred; */
+    float: left;
+    margin-top: 25px;
+}
+.flightdeals{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    font-style: normal;
+    color: #00557a;
+    line-height: 44px;
+    margin-left: 10%;
+}
+.londonimg, .saudi-img{
+    float: left;
+}
+.londonimg{
+    position: relative;
+    width: 40%;
+    height: 400px;
+    /* background-color: darkblue; */
+    margin-left: 8%;
+    background-image: url(./images/London1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.saudi-img{
+    width: 40%;
+    height: 400px;
+    margin-left: 40px;
+    /* background-color: hotpink; */
+    background-image: url(./images/KSA1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.startingprice{
+    float: left;
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    
+    background-image: linear-gradient(to top right, #000080,#317de7);
+}
+.startinggbp{
+    color: #ffffff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 10px;
+    
+}
+.moredetails{
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    top: 80%;
+    
+    background-image: linear-gradient(to top right, #000080,#3174d3);
+}
+.moredetailsrext{
+    color: #ffffff;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.latestflight2{
+    width: 100%;
+    height: auto;
+    /* background-color: lime; */
+    float: left;
+}
+.birmingham, .manchester{
+    float: left;
+    margin-top: 20px;
+}
+.birmingham{
+    width: 40%;
+    height: 400px;
+    margin-left: 8%;
+    background-image: url(./images/Birmingham1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.birminghamtext{
+    font-family: Exo 2;
+    font-weight: 600;
+    font-size: 64px;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 15px;
+    position: relative;
+    
+}
+.h3text{
+    font-family: "Exo 2" ;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 15px;
+    position: absolute;
+    top: 110px;
+    
+}
+.moredetails2{
+    width: 60%;
+    height: 60px;
+    position: absolute;
+    top: 80%;
+    
+    background-image: linear-gradient(to top right, #000080,#3174d3);
+}
+.manchester{
+    width: 40%;
+    height: 400px;
+    background-image: url(./images/Manchester1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    position: relative;
+    
+}
+.termsconditions{
+    width: 100%;
+    height: 50px;
+    float: left;
+    /* background-color: tomato; */
+}
+.conditiontext{
+    margin-left: 67%;
+    color: #707070;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+                    /* All Deals Section Starts */
+.alldeals{
+    width: 90%;
+    height: auto;
+    /* background-color: crimson; */
+    margin-left: 8%;
+}
+.alldealtext{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+    color: #00557a;
+}
+.dealsstatus{
+    width: 88%;
+    float: left;
+    height: 100px;
+    background-color: #adc1d9;
+    margin-left:6% ;
+}
+.citytravel, .departuredate, .searchdeals{
+    float: left;
+    margin-top: 2.5%;
+}
+.citytravel{
+    width: 30%;
+    height: 40px;
+    
+    margin-left:8% ;
+}
+.departuredate{
+    width: 30%;
+    height: 40px;
+    margin-left: 5%;
+}
+
+.searchdeals{
+    width: 15%;
+    height: 40px;
+    margin-left: 3%;
+}
+#fromcity{
+    width: 100%;
+    height: 40px;
+}
+#selectdate{
+    width: 100%;
+    height: 36px;
+}
+.searchdeal1{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.addedservice{
+    width: 100%;
+    height: 100px;
+    
+}
+
+.addedservicestext{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 58px;
+    font-style: normal;
+    color: #00557a;
+    margin-left: 7%;
+}
+.servicesimages{
+    float: left;
+    width: 90%;
+    height: 500px;
+    
+    margin-left: 5%;
+}
+.serviceimg1, .serviceimg2, .serviceimg3{
+    float: left;
+}
+.serviceimg1{
+    width: 32%;
+    height: 300px;
+    
+}
+.serviceimg2{
+    width: 32%;
+    height: 300px;
+    margin-left: 1%;
+    background-color: rgb(54, 52, 51);
+}
+.serviceimg3{
+    width: 32%;
+    height: 300px;
+    margin-left: 1%;
+    
+}
+.allservicesimg{
+    width: 100%;
+    height: auto;
+}
+
+.textforallimgs{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.imgtext1, .imgtext2, .imgtext3{
+        float: left;
+}
+.imgtext1{
+    width: 32%;
+    height: auto;
+}
+.imgtext2{
+    width: 32%;
+    height: auto;
+    margin-left: 1%;
+}
+.imgtext3{
+    width: 32%;
+    height: auto;
+    margin-left: 1%;
+}
+.alltexth1{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    font-style: normal;
+    color: #69b342;
+}
+.linktextforimgs{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.linktext1, .linktext2, .linktext3{
+            float: left;
+}
+.linktext1{
+    width: 32%;
+    height: auto;
+}
+.linktext2{
+    width: 32%;
+    height: auto;
+    margin-left: 1%;
+}
+.linktext3{
+    width: 32%;
+    height: auto;
+    margin-left: 1%;
+}
+.exploretext{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color:#38687e;
+}
+.exploretext:hover{
+    color: #69b342;
+}
+
+/** Quick Links Section Starts */
+
+
+
+.quicklinks{
+    width: 100%;
+    height: auto;
+    /* background-color: #317de7; */
+    float: left;
+}
+.facilities, .experience, .quicklinks2, .connectus{
+    float: left;
+}
+
+.facilities{
+    width: 25%;
+    height: auto;
+    /* background-color: darkorange; */
+}
+.experience{
+    width: 25%;
+    height: auto;
+    
+}
+
+.quicklinks2{
+    width: 25%;
+    height: auto;
+    
+}
+
+.connectus{
+    width: 25%;
+    height: auto;
+    
+    
+}
+.quicktext{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: #69b342;
+    font-style: normal;
+    margin-left: 40px;
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #707070;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.cabintext{
+    margin-left: 40px;
+    color: #707070;
+}
+.fbicon{
+    padding-left: 40px;
+}
+.socialicons{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.appstoreimg{
+    width: auto;
+    height: 40px;
+    margin-left: 50px;
+}
+.app1{
+    width: 120px;
+}
+
+     /** Footer Section Starts */
+
+.footer{
+    width: 100%;
+    height: auto;
+
+    float: left;
+}
+.logoimg, .logoimg2, .logoimg3{
+    float: left;
+    margin-top: 10px;
+}
+.logoimg{
+    width: 25%;
+    height: auto;
+    margin-left: 10%;
+    
+    
+}
+.logoimg2{
+    width: 10%;
+    height: auto;
+    
+    margin-left: 40%;
+}
+.pmlogo{
+    width: 70%;
+}
+.logoimg3{
+    width: 10%;
+    height: 50px;
+}
+.copyright{
+    width: 100%;
+    height: auto;
+}
+.copyrighttext{
+    color: #707070;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
